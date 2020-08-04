@@ -3,7 +3,7 @@
  */
 "use strict";
 
-const program = require('commander');
+const program = require('awesome/commander/commander');
 
 program
   .version('1.0.0')
