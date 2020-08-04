@@ -1,11 +1,11 @@
 
 
 - **javascript**
- - [declarations](./javascript/declarations/declarations.js)| [variables hoisting](./javascript/declarations/variable_hoisting.js) | block-scope  
- - [function declaration | function express](./javascript/function/function_hoisting.js)
- - [types | Boolean | null | undefined | Number | Bigint | String](./javascript/types/types.js)   
- - [type conversion](./javascript/types/type_conversion.js)
- - control flow [if_else](./javascript/control_flow/if_else.js) | [switch](./javascript/control_flow/switch.js)
+   - [declarations](./javascript/declarations/declarations.js)| [variables hoisting](./javascript/declarations/variable_hoisting.js) | block-scope  
+   - [function declaration | function express](./javascript/function/function_hoisting.js)
+   - [types | Boolean | null | undefined | Number | Bigint | String](./javascript/types/types.js)   
+   - [type conversion](./javascript/types/type_conversion.js)
+   - control flow [if_else](./javascript/control_flow/if_else.js) | [switch](./javascript/control_flow/switch.js)
 
 1. [Node 的基本用法](./docs/node.md)
 2. Restful API
