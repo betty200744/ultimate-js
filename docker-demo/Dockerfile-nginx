@@ -1,0 +1,8 @@
+FROM ubuntu:16.04
+
+COPY sources.list.wily /etc/apt/souces.list
+
+# nginx
+RUN apt-get install -y nginx
+EXPOSE 80
+

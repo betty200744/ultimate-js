@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "co": "^4.6.0",
+    "elastic-apm-node": "^2.0.6",
+    "express": "^4.16.4",
+    "macha": "^0.0.0",
+    "randomstring": "^1.1.5",
+    "rxjs": "^6.3.3",
+    "uuidv4": "^2.0.0"
+  }
+}

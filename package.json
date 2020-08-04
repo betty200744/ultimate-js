@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "elastic-apm-node": "^2.0.6",
+    "express": "^4.16.4",
+    "koa": "^2.6.1"
+  }
+}
