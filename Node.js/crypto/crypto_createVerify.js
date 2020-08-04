@@ -23,7 +23,7 @@ const rawBody = (req, res, next) => {
 const verifyMiddleware = (req, res, next) => {
   req.body = JSON.parse(req.rawBody);
 
-  const clientSignature = req.headers['x-pingplusplus-signature'];
+  const clientSignature = req.headers['b-pingplusplus-signature'];
   const rawData = req.rawData;
   const verifier = crypto.createVerify('RSA-SHA256').update(rawData, 'utf8');
   const pub_key = fs.readFileSync('./pub_key.pem', 'utf8');

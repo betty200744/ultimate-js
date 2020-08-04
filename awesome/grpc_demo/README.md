@@ -4,7 +4,7 @@ gRPC in 3 minutes (Node.js)
 PREREQUISITES
 -------------
 
-- `node`: This requires Node 0.12.x or greater.
+- `node`: This requires Node 0.12.b or greater.
 
 INSTALL
 -------
