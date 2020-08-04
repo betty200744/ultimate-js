@@ -2,7 +2,7 @@
 var express    = require('express');
 var app        = express();
 require('elastic-apm-node').start({
-  serviceName: 'jstraining',
+  serviceName: 'ultimate',
   serverUrl: process.env.NODE_ENV === 'production' ? 'http://127.0.0.1:8200' : 'http://127.0.0.1:8200',
   active: true,
   captureSpanStackTraces: false,
