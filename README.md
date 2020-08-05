@@ -27,9 +27,11 @@ ultimate-js is my node work with Node.js
      - [array methods | map | reduce | filter | forEach| every | some ](./javascript/array/array_methods_iterating.js)
      - [multi-dimensional array](./javascript/array/2d_object_array.js)
   -  **map** 
-     -
+     - map method | [new | set | get | has | delete | keys | values | entries](./javascript/map/map.js)
+     - map iterating[forEach | for of](./javascript/map/map.js)
   -  **set** 
-     -
+     - set method | [add | has | delete ](./javascript/set/set.js)
+     - set iterating | [forEach | for of](./javascript/set/set.js)
   -  **objects**
      -   
 - **Es6**
