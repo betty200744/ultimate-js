@@ -35,7 +35,11 @@ ultimate-js is my node work with Node.js
      - set method | [add | has | delete ](./javascript/set/set.js)
      - set iterating | [forEach | for of](./javascript/set/set.js)
   -  **objects**
-     -  d
+     -  [create object](./javascript/objects/create_objects.js)
+     -  [enumerate object](./javascript/objects/enumerate_objects.js)
+     -  [object_methods](./javascript/objects/objects_methods.js)
+     -  [object_inheritance](./javascript/objects/objects_inheritance.js)
+     -  [function vs class vs java](./javascript/objects/function_vs_class_vs_java.js)
 - **Es6**
    - 8.5    
   
