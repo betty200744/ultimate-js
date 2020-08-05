@@ -3,6 +3,7 @@
  */
 "use strict";
 
+// Function prototype
 // function hoisting
 let fa = factorial(5)
 console.log(fa)
