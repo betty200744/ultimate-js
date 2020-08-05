@@ -4,7 +4,6 @@ ultimate-js is my node work with Node.js
 ![Alt text](./system.png)
 
 - **javascript**
-  - 8.4
   - [declarations](./javascript/declarations/declarations.js) | [variables hoisting](./javascript/declarations/variable_hoisting.js) | block-scope  
   - [function declaration | function express | function hoisting](javascript/function/function_declarate.js)
   - [types | Boolean | null | undefined | Number | Bigint | String](./javascript/types/types.js)   
@@ -46,8 +45,20 @@ ultimate-js is my node work with Node.js
      -  [Generator](./javascript/async/Generator/generator.js)
      -  [async/await](./javascript/async/async_await/async_await.js)    
 - **Es6**
-   - 8.5    
-  
+   - [scoping](./es6)
+   - [arrow functions](./es6)
+   - [default parameter](./es6)
+   - [rest parameter](./es6)
+   - [spread operator](./es6)
+   - [template literals](./es6)
+   - [shorthand property](./es6)
+   - [Computed Property Name](./es6)
+   - [method property](./es6)   
+   - [destructuring assignment](./es6)
+   - [modules](./es6)
+   - [class](./es6)
+   - [Promise](./es6)
+   - [Generators](./es6)
 - **typescript**
    - 8.6
 
@@ -79,3 +90,11 @@ ultimate-js is my node work with Node.js
   - [docker](./docs/docker.md)
   - [mocha](./docs/mocha.md)
   - [async-file]()
+  - [typeorm]()
+  - [ramda]()
+  - [amqplib]()
+  - [bcryptjs]()
+  - [grpc]()
+  - [jsonwebtoken]()
+  - [protobufjs]()
+  
