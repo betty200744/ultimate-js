@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "async-file": "^2.0.2",
+    "bluebird": "^3.7.2",
     "elastic-apm-node": "^2.0.6",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
