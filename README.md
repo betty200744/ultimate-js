@@ -14,13 +14,15 @@ ultimate-js is my node work with Node.js
   - [break](./javascript/terminates_statement/terminates.js) | [continue](./javascript/terminates_statement/terminates.js)
   - [try_catch_finally](./javascript/exception_handling/try_catch_finally.js)
   - [function](./javascript/function) | [declaration](./javascript/function/function_declarate.js) | [nested | closures](./javascript/function/function_nested_closures.js) 
+  - function methods | [call](./javascript/function/function_methods_call.js) | [bind](./javascript/function/function_methods_bind.js) | [apply](./javascript/function/function_methods_apply.js)
+  - function properties | [arguments | constructor| caller ](./javascript/function/function_properties.js)
   - [build-in-function | eval | parseInt | parseFloat | decodeURL](./javascript/build_in_functions/build_in_function.js)
   - **express_operators**
      - [unary | delete | typeof | in | instance of ](./javascript/expressions_operators/unary_ternary.js) | [ternary](./javascript/expressions_operators/unary_ternary.js)
      - todo[this](./javascript/expressions_operators/this.js)
      - todo[left-hand-side | new | super](./javascript/expressions_operators/new_super.js)
   -  **strings**
-     -
+     - d
   -  **array**
      - [create | access | populate | length | iterating](./javascript/array/create_access.js)
      - [array methods | concat | push | pop | shift |slice | splice | reverse | sort | indexOf](./javascript/array/array_methods_operator.js)
@@ -33,7 +35,7 @@ ultimate-js is my node work with Node.js
      - set method | [add | has | delete ](./javascript/set/set.js)
      - set iterating | [forEach | for of](./javascript/set/set.js)
   -  **objects**
-     -   
+     -  d
 - **Es6**
    - 8.5    
   
