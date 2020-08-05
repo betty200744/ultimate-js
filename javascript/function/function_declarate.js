@@ -4,11 +4,16 @@
 "use strict";
 
 // function hoisting
-foo()
+let fa = factorial(5)
+console.log(fa)
 
 // function declaration
-function foo() {
-  console.log("foo")
+function factorial(n) {
+  if ((n === 0) || (n === 1)) {
+    return n
+  } else {
+    return n * factorial(n - 1)
+  }
 }
 
 // function expression
@@ -16,4 +21,3 @@ var baz = () => {
   console.log("baz")
 }
 baz()
-
