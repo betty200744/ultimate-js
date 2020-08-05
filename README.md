@@ -45,20 +45,21 @@ ultimate-js is my node work with Node.js
      -  [Generator](./javascript/async/Generator/generator.js)
      -  [async/await](./javascript/async/async_await/async_await.js)    
 - **Es6**
-   - [scoping](./es6)
-   - [arrow functions](./es6)
-   - [default parameter](./es6)
-   - [rest parameter](./es6)
-   - [spread operator](./es6)
+   - [scoping and without hoisting](./es6)
+   - [arrow functions](./es6/arrow_functions/arrow_function.js)
+   - [default parameter](es6/parameter/default_parameter.js)
+   - [rest parameter](./es6/parameter/rest_parameter.js)
+   - [spread operator](./es6/parameter/rest_parameter.js)
    - [template literals](./es6)
    - [shorthand property](./es6)
    - [Computed Property Name](./es6)
    - [method property](./es6)   
    - [destructuring assignment](./es6)
+   - [Promise](./javascript/async/promise/promise.js)
+   - [Generators](./javascript/async/Generator/generator.js)
    - [modules](./es6)
    - [class](./es6)
-   - [Promise](./es6)
-   - [Generators](./es6)
+
 - **typescript**
    - 8.6
 
