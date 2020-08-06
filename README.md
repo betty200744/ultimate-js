@@ -69,7 +69,7 @@ ultimate-js is my node work with Node.js
     - *Prototype: [wiki](https://en.wikipedia.org/wiki/Prototype_pattern) | [code](./design-patterns/creational/prototype/prototype.js) | [best practices]() 
     - *Singleton: [wiki](https://en.wikipedia.org/wiki/Singleton_pattern) | [code](./design-patterns/creational/singleton/singleton.js) | [best practices]() 
   - Structual
-    - Adapter: [wiki](https://en.wikipedia.org/wiki/Adapter_pattern) | [code]() | [best practices]() 
+    - Adapter(wrapper): [wiki](https://en.wikipedia.org/wiki/Adapter_pattern) | [code](./design-patterns/structual/adapter/adapter.js) | [best practices]() 
     - *Bridge: [wiki](https://en.wikipedia.org/wiki/Bridge_pattern) | [code]() | [best practices]() 
     - Composite: [wiki](https://en.wikipedia.org/wiki/Composite_pattern) | [code]() | [best practices]() 
     - *Decorator: [wiki](https://en.wikipedia.org/wiki/Decorator_pattern) | [code]() | [best practices]() 
