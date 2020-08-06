@@ -45,19 +45,19 @@ ultimate-js is my node work with Node.js
      -  [Generator](./javascript/async/Generator/generator.js)
      -  [async/await](./javascript/async/async_await/async_await.js)    
 - **Es6**
-   - [scoping and without hoisting](./es6)
+   - [scoping and without hoisting](./es6/scoped.js)
    - [arrow functions](./es6/arrow_functions/arrow_function.js)
    - [default parameter](es6/parameter/default_parameter.js)
    - [rest parameter](./es6/parameter/rest_parameter.js)
    - [spread operator](./es6/parameter/rest_parameter.js)
-   - [template literals](./es6)
-   - [shorthand property](./es6)
-   - [Computed Property Name](./es6)
-   - [method property](./es6)   
-   - [destructuring assignment](./es6)
+   - [template literals](./es6/template_literal.js)
+   - [shorthand property](es6/object_properties/shorthand_property.js)
+   - [Computed Property Name](es6/object_properties/computed_property_name.js)
+   - [method property](./es6/build_in_methods/build_in_methods.js)   
+   - [destructuring assignment](./es6/destructuring/destructuring.js)
    - [Promise](./javascript/async/promise/promise.js)
    - [Generators](./javascript/async/Generator/generator.js)
-   - [modules](./es6)
+   - todo[modules](./es6)
    - [class](./es6)
 
 - **typescript**
@@ -65,12 +65,13 @@ ultimate-js is my node work with Node.js
 
 - **Node.js**
    - 8.7
+
+- **design patterns**  
+  - 8.8  
   
 - **algorithm**  
    - 8.9
   
-- **design patterns**  
-  - 8.8  
 
 - **awesome**
   - 8.10
@@ -98,4 +99,5 @@ ultimate-js is my node work with Node.js
   - [grpc]()
   - [jsonwebtoken]()
   - [protobufjs]()
+  - [deno]()
   
