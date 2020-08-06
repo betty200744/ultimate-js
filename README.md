@@ -66,7 +66,6 @@ ultimate-js is my node work with Node.js
     - *Abstract factory: [wiki](https://en.wikipedia.org/wiki/Abstract_factory_pattern) | [code](design-patterns/creational/abstract_factory/abstract_factory.js) | [best practices]()
     - *Builder: [wiki](https://en.wikipedia.org/wiki/Builder_pattern) | [code1](design-patterns/creational/builder/builder.js) | [best practices orm query build]() 
     - Factory method: [wiki](https://en.wikipedia.org/wiki/Factory_method_pattern) | [code](design-patterns/creational/factory_method/factory_method.js) | [best practices]()
-    - *Object Pool Pattern: [wiki](https://golangbyexample.com/golang-object-pool/) | [code]() | [best practices bilibili redis pool]() 
     - *Prototype: [wiki](https://en.wikipedia.org/wiki/Prototype_pattern) | [code]() | [best practices]() 
     - *Singleton: [wiki](https://en.wikipedia.org/wiki/Singleton_pattern) | [code](./design-patterns/creational/singleton/singleton.js) | [best practices]() 
   - Structual
