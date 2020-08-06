@@ -58,16 +58,43 @@ ultimate-js is my node work with Node.js
    - [Promise](./javascript/async/promise/promise.js)
    - [Generators](./javascript/async/Generator/generator.js)
    - todo[modules](./es6)
-   - [class](./es6)
+   - [class](./es6/classes) | [class definition](./es6/classes/class_definition.js) | [class inheritance](./es6/classes/class_inheritance.js)
+   
+- **design patterns**  
+  - Creational
+    - Simple Factory: [wiki](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)) | [code]() | [best practices]()
+    - *Abstract factory: [wiki](https://en.wikipedia.org/wiki/Abstract_factory_pattern) | [code]() | [best practices]()
+    - *Builder: [wiki](https://en.wikipedia.org/wiki/Builder_pattern) | [code1]() | [best practices orm query build]() 
+    - Factory method: [wiki](https://en.wikipedia.org/wiki/Factory_method_pattern) | [code]() | [best practices]()
+    - *Object Pool Pattern: [wiki](https://golangbyexample.com/golang-object-pool/) | [code]() | [best practices bilibili redis pool]() 
+    - *Prototype: [wiki](https://en.wikipedia.org/wiki/Prototype_pattern) | [code]() | [best practices]() 
+    - *Singleton: [wiki](https://en.wikipedia.org/wiki/Singleton_pattern) | [code]() | [best practices]() 
+  - Structual
+    - Adapter: [wiki](https://en.wikipedia.org/wiki/Adapter_pattern) | [code]() | [best practices]() 
+    - *Bridge: [wiki](https://en.wikipedia.org/wiki/Bridge_pattern) | [code]() | [best practices]() 
+    - Composite: [wiki](https://en.wikipedia.org/wiki/Composite_pattern) | [code]() | [best practices]() 
+    - *Decorator: [wiki](https://en.wikipedia.org/wiki/Decorator_pattern) | [code]() | [best practices]() 
+    - Facade: [wiki](https://en.wikipedia.org/wiki/Facade_pattern) | [code]() | [best practices]() 
+    - Flyweight: todo[wiki]() | [code]() | [best practices]() 
+    - Proxy: todo[wiki]() | [code]() | [best practices]() 
+  - Behavioral
+    - *Chain of responsibility: [wiki]() | [code]() | [best practices]() 
+    - Command: todo [wiki]() | [code]() | [best practices]() 
+    - *Interpreter: todo[wiki]() | [code]() | [best practices]() 
+    - *Iterator: [wiki]() | [code]() | [best practices]() 
+    - Mediator: todo[wiki]() | [code]() | [best practices]() 
+    - Memento: todo[wiki]() | [code]() | [best practices]() 
+    - Observer: todo[wiki]() | [code]() | [best practices]() 
+    - State: todo[wiki]() | [code]() | [best practices]() 
+    - *Strategy: [wiki]() | [code]() | [best practices]() 
+    - Template method : todo[wiki]() | [code]() | [best practices]() 
+    - Visitor: todo[wiki]() | [code]() | [best practices]() 
 
 - **typescript**
    - 8.6
 
 - **Node.js**
    - 8.7
-
-- **design patterns**  
-  - 8.8  
   
 - **algorithm**  
    - 8.9
