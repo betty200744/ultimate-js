@@ -1,3 +1,5 @@
+// 发一组相同类型的object放在一个类里面， 之后用class method来获取具体的类
+// groups object factories that have a common theme
 class CarFactory {
   constructor() {
   }

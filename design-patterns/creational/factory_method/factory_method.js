@@ -2,7 +2,8 @@
  * Created by betty on 8/6/20.
  */
 "use strict";
-
+// creates objects by a function without specifying the exact class to create
+// 通过一个function， 传入参数，创建不同的类，注意此时不需要指定特定的类
 function carFactory(type) {
   switch (type) {
     case "Tesla":

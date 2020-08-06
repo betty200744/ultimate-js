@@ -60,7 +60,7 @@ ultimate-js is my node work with Node.js
    - todo[modules](./es6)
    - [class](./es6/classes) | [class definition](./es6/classes/class_definition.js) | [class inheritance](./es6/classes/class_inheritance.js)
    
-- **design patterns**  
+- **design patterns**  [design patterns](https://loredanacirstea.github.io/es6-design-patterns/#builder)
   - Creational
     - Simple Factory: [wiki](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)) 
     - *Abstract factory: [wiki](https://en.wikipedia.org/wiki/Abstract_factory_pattern) | [code](design-patterns/creational/abstract_factory/abstract_factory.js) | [best practices]()

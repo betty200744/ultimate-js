@@ -3,6 +3,8 @@
  */
 "use strict";
 
+// constructs complex objects by separating construction and representation
+// 通过分步骤的方式来构造一个复杂的construction
 class User {
   constructor() {
     this.name = ""
