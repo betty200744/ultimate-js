@@ -77,7 +77,7 @@ ultimate-js is my node work with Node.js
     - Flyweight: todo[wiki]() | [code]() | [best practices]() 
     - Proxy: todo[wiki]() | [code]() | [best practices]() 
   - Behavioral
-    - *Chain of responsibility: [wiki]() | [code]() | [best practices]() 
+    - *Chain of responsibility(middleware): [wiki]() | [code](./design-patterns/behavioral/chain_of_responsibility/chain_of_responsibility.js) | [best practices]() 
     - Command: todo [wiki]() | [code]() | [best practices]() 
     - *Interpreter: todo[wiki]() | [code]() | [best practices]() 
     - *Iterator: [wiki]() | [code]() | [best practices]() 
