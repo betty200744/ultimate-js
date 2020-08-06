@@ -2,9 +2,13 @@
   "dependencies": {
     "async-file": "^2.0.2",
     "bluebird": "^3.7.2",
+    "chai": "^4.2.0",
     "elastic-apm-node": "^2.0.6",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^25.5.4"
   }
 }
