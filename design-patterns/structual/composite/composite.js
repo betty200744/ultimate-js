@@ -3,12 +3,8 @@
  */
 "use strict";
 
-// Equipment, setName, setPrice
-// HardDrive
-// Memory
-// CPU
-
-// Cabinet , add , getPrice
+// composes zero-or-more similar objects so that they can be manipulated as one object.
+// 组装模式， 分别几个objects 组装成一个object
 
 class Equipment {
   setName(name) {
