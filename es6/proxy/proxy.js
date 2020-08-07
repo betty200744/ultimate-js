@@ -4,7 +4,7 @@
 "use strict";
 
 let target = {
-  foo: "Welcome, foo",
+  foo: "Welcome, null_vs_undefined",
   bar: "Welcome, bar"
 }
 let handle = {

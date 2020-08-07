@@ -57,7 +57,7 @@ ultimate-js is my node work with Node.js
    - [destructuring assignment](./es6/destructuring/destructuring.js)
    - [Promise](./javascript/async/promise/promise.js)
    - [Generators](./javascript/async/Generator/generator.js)
-   - todo[modules](./es6)
+   - [export](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/export) |[import](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/import)
    - [class](./es6/classes) | [class definition](./es6/classes/class_definition.js) | [class inheritance](./es6/classes/class_inheritance.js)
    - [Proxy](./es6/proxy/proxy.js)
    
@@ -91,10 +91,16 @@ ultimate-js is my node work with Node.js
     - Visitor: todo[wiki](https://en.wikipedia.org/wiki/Visitor_pattern) | [code]() | [best practices]() 
 
 - **typescript**
-   - 8.6
-
+   - [doc](./typescript/typescript.md)
+   - **Basic Types**
+      - [boolean | number | string | array | tuple | enum | any | null | undefined](./typescript/basic-types/basic_type.ts)
+      - [type_assertions](./typescript/basic-types/type_assertions.ts)
+   - 
 - **Node.js**
-   - 8.7
+   - [nvm](https://github.com/nvm-sh/nvm)
+   - [npm](https://www.npmjs.com/)
+   - [npx](https://www.npmjs.com/package/npx)
+   - [n](https://github.com/tj/n)
   
 - **algorithm**  
    - 8.9
