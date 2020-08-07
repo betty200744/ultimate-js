@@ -70,7 +70,7 @@ ultimate-js is my node work with Node.js
     - *Singleton: [wiki](https://en.wikipedia.org/wiki/Singleton_pattern) | [code](./design-patterns/creational/singleton/singleton.js) | [best practices]() 
   - Structual
     - Adapter(wrapper): [wiki](https://en.wikipedia.org/wiki/Adapter_pattern) | [code](./design-patterns/structual/adapter/adapter.js) | [best practices]() 
-    - *Bridge: [wiki](https://en.wikipedia.org/wiki/Bridge_pattern) | [code]() | [best practices]() 
+    - *Bridge: [wiki](https://en.wikipedia.org/wiki/Bridge_pattern) | [code](./design-patterns/structual/bridge/bridge.js) | [best practices]() 
     - Composite: [wiki](https://en.wikipedia.org/wiki/Composite_pattern) | [code]() | [best practices]() 
     - *Decorator: [wiki](https://en.wikipedia.org/wiki/Decorator_pattern) | [code]() | [best practices]() 
     - Facade: [wiki](https://en.wikipedia.org/wiki/Facade_pattern) | [code]() | [best practices]() 
