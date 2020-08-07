@@ -4,7 +4,7 @@
 "use strict";
 
 // decouples an abstraction from its implementation so that the two can vary independently.
-// 类似责任单一， 建模， 将抽象与实现分离， 以便两则解偶
+// 类似责任单一， 建模， 将抽象与实现分离， 以便两则解偶, 两则虽依赖，但做到解偶
 
 class Printer {
   constructor(ink) {

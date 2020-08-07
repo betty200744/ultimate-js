@@ -71,7 +71,7 @@ ultimate-js is my node work with Node.js
   - Structual
     - Adapter(wrapper): [wiki](https://en.wikipedia.org/wiki/Adapter_pattern) | [code](./design-patterns/structual/adapter/adapter.js) | [best practices]() 
     - *Bridge: [wiki](https://en.wikipedia.org/wiki/Bridge_pattern) | [code](./design-patterns/structual/bridge/bridge.js) | [best practices]() 
-    - Composite: [wiki](https://en.wikipedia.org/wiki/Composite_pattern) | [code]() | [best practices]() 
+    - Composite: [wiki](https://en.wikipedia.org/wiki/Composite_pattern) | [code](./design-patterns/structual/composite/composite.js) | [best practices]() 
     - *Decorator: [wiki](https://en.wikipedia.org/wiki/Decorator_pattern) | [code]() | [best practices]() 
     - Facade: [wiki](https://en.wikipedia.org/wiki/Facade_pattern) | [code]() | [best practices]() 
     - Flyweight: todo[wiki](https://en.wikipedia.org/wiki/Flyweight_pattern) | [code]() | [best practices]() 
