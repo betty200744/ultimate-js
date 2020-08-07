@@ -59,6 +59,7 @@ ultimate-js is my node work with Node.js
    - [Generators](./javascript/async/Generator/generator.js)
    - todo[modules](./es6)
    - [class](./es6/classes) | [class definition](./es6/classes/class_definition.js) | [class inheritance](./es6/classes/class_inheritance.js)
+   - [Proxy](./es6/proxy/proxy.js)
    
 - **design patterns**  [design patterns](https://loredanacirstea.github.io/es6-design-patterns/#builder)
   - Creational
@@ -72,10 +73,10 @@ ultimate-js is my node work with Node.js
     - Adapter(wrapper): [wiki](https://en.wikipedia.org/wiki/Adapter_pattern) | [code](./design-patterns/structual/adapter/adapter.js) | [best practices]() 
     - *Bridge: [wiki](https://en.wikipedia.org/wiki/Bridge_pattern) | [code](./design-patterns/structual/bridge/bridge.js) | [best practices]() 
     - Composite: [wiki](https://en.wikipedia.org/wiki/Composite_pattern) | [code](./design-patterns/structual/composite/composite.js) | [best practices]() 
-    - *Decorator: [wiki](https://en.wikipedia.org/wiki/Decorator_pattern) | [code]() | [best practices]() 
-    - Facade: [wiki](https://en.wikipedia.org/wiki/Facade_pattern) | [code]() | [best practices]() 
-    - Flyweight: todo[wiki](https://en.wikipedia.org/wiki/Flyweight_pattern) | [code]() | [best practices]() 
-    - Proxy: todo[wiki](https://en.wikipedia.org/wiki/Proxy_pattern) | [code]() | [best practices]() 
+    - *Decorator: [wiki](https://en.wikipedia.org/wiki/Decorator_pattern) | [code](./design-patterns/structual/decorator/decorator.js) | [best practices]() 
+    - Facade: [wiki](https://en.wikipedia.org/wiki/Facade_pattern) | [code](./design-patterns/structual/facade/facade.js) | [best practices]() 
+    - Flyweight: todo[wiki](https://en.wikipedia.org/wiki/Flyweight_pattern) | [code](./design-patterns/structual/flyweight/flyweight.js) | [best practices]() 
+    - Proxy: todo[wiki](https://en.wikipedia.org/wiki/Proxy_pattern) | [code](./design-patterns/structual/proxy/proxy.js) | [best practices]() 
   - Behavioral
     - *Chain of responsibility(middleware): [wiki](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern) | [code](./design-patterns/behavioral/chain_of_responsibility/chain_of_responsibility.js) | [best practices]() 
     - Command: todo [wiki](https://en.wikipedia.org/wiki/Command_pattern) | [code]() | [best practices]() 
