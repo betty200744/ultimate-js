@@ -98,7 +98,9 @@ ultimate-js is my node work with Node.js
    - **interfaces**
       - [properties | optional | readonly | excess](./typescript/interfaces/interface_properties.ts)
       - [function types](./typescript/interfaces/interface_function_types.ts)
-      - []
+      - [implements_interface](./typescript/interfaces/class_implements_interface.ts)
+      - [extents_interface](./typescript/interfaces/interface_extends_interface.ts)
+      - [hybrid_types](./typescript/interfaces/interface_hybrid_types.ts)
    - **functions**
       - d
    - **literal_types**
@@ -106,7 +108,7 @@ ultimate-js is my node work with Node.js
    - **unions and intersection types**
       - d
    - **classes**
-      - d
+      - [classes extends](./typescript/classes/class_extends_class.ts)
    - **Enums**
       - d
    - **generic**
