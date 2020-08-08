@@ -93,8 +93,32 @@ ultimate-js is my node work with Node.js
 - **typescript**
    - [doc](./typescript/typescript.md)
    - **Basic Types**
-      - [boolean | number | string | array | tuple | enum | any | null | undefined](./typescript/basic-types/basic_type.ts)
-      - [type_assertions](./typescript/basic-types/type_assertions.ts)
+      - [boolean | number | string | array | tuple | enum | any | null | undefined | type aliases](typescript/basic_types/basic_type.ts)
+      - [type_assertions](typescript/basic_types/type_assertions.ts)
+   - **interfaces**
+      - [properties | optional | readonly | excess](./typescript/interfaces/interface_properties.ts)
+      - [function types](./typescript/interfaces/interface_function_types.ts)
+      - []
+   - **functions**
+      - d
+   - **literal_types**
+      - d
+   - **unions and intersection types**
+      - d
+   - **classes**
+      - d
+   - **Enums**
+      - d
+   - **generic**
+      - d
+   - **advanced types**
+      - d
+   - **utility types**
+      - d
+   - **decorators**
+      - d
+   - **modules**
+      - d
    - 
 - **Node.js**
    - [nvm](https://github.com/nvm-sh/nvm)
@@ -133,4 +157,6 @@ ultimate-js is my node work with Node.js
   - [jsonwebtoken]()
   - [protobufjs]()
   - [deno]()
+  - [inversity](https://github.com/inversify/InversifyJS)
+  - [passport](https://github.com/jaredhanson/passport)
   
