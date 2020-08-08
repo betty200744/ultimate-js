@@ -101,6 +101,7 @@ ultimate-js is my node work with Node.js
       - [implements_interface](./typescript/interfaces/class_implements_interface.ts)
       - [extents_interface](./typescript/interfaces/interface_extends_interface.ts)
       - [hybrid_types](./typescript/interfaces/interface_hybrid_types.ts)
+      - [keyof](./typescript/interfaces/interface_hybrid_types.ts)
    - **functions**
       - [function_type_and_inferring](./typescript/functions/function_type_and_inferring_type.ts)
       - [option | default | rest parameters](./typescript/functions/option_default_rest_parameters.ts)
@@ -116,7 +117,11 @@ ultimate-js is my node work with Node.js
       - [number enum | string enum](./typescript/enums/enums.ts)
       - [iterator enum](./typescript/enums/enums_iterator.test.ts)
    - **generic**
-      - d
+      - [function | parameters | response](./typescript/generics/generics_function.ts)
+      - [interface](./typescript/generics/generics_interface.ts)
+      - [classes](./typescript/generics/generics_classes.ts)
+      - [class_types](./typescript/generics/class_types_in_generics.ts)
+      - [generics_type_extends_types](./typescript/generics/generics_types_extends_types.ts)
    - **advanced types**
       - d
    - **utility types**
@@ -124,8 +129,11 @@ ultimate-js is my node work with Node.js
    - **decorators**
       - d
    - **modules**
+      - export
+      - import
+   - **namespaces**
       - d
-   - 
+      
 - **Node.js**
    - [nvm](https://github.com/nvm-sh/nvm)
    - [npm](https://www.npmjs.com/)
