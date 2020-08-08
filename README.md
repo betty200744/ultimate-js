@@ -110,7 +110,8 @@ ultimate-js is my node work with Node.js
    - **classes**
       - [classes extends](./typescript/classes/class_extends_class.ts)
       - [public | private | protected](./typescript/classes/public_private_protected.ts)
-      - [readonly, static](./typescript/classes/public_private_protected.ts)
+      - [readonly | static](./typescript/classes/public_private_protected.ts)
+      - [constructor | parameter properties ](./typescript/classes/public_private_protected.ts)
    - **Enums**
       - [number enum | string enum](./typescript/enums/enums.ts)
       - [iterator enum](./typescript/enums/enums_iterator.test.ts)
