@@ -110,7 +110,8 @@ ultimate-js is my node work with Node.js
    - **classes**
       - [classes extends](./typescript/classes/class_extends_class.ts)
    - **Enums**
-      - d
+      - [number enum | string enum](./typescript/enums/enums.ts)
+      - [iterator enum](./typescript/enums/enums_iterator.test.ts)
    - **generic**
       - d
    - **advanced types**
