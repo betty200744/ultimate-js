@@ -102,7 +102,8 @@ ultimate-js is my node work with Node.js
       - [extents_interface](./typescript/interfaces/interface_extends_interface.ts)
       - [hybrid_types](./typescript/interfaces/interface_hybrid_types.ts)
    - **functions**
-      - d
+      - [function_type_and_inferring](./typescript/functions/function_type_and_inferring_type.ts)
+      - [option | default | rest parameters](./typescript/functions/option_default_rest_parameters.ts)
    - **literal_types**
       - d
    - **unions and intersection types**
