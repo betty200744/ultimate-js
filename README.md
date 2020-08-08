@@ -104,10 +104,9 @@ ultimate-js is my node work with Node.js
    - **functions**
       - [function_type_and_inferring](./typescript/functions/function_type_and_inferring_type.ts)
       - [option | default | rest parameters](./typescript/functions/option_default_rest_parameters.ts)
-   - **literal_types**
-      - d
    - **unions and intersection types**
-      - d
+      - [unions types](./typescript/unions_and_intersection_types/union_types.ts)
+      - [intersection types](./typescript/unions_and_intersection_types/intersection_types.ts)
    - **classes**
       - [classes extends](./typescript/classes/class_extends_class.ts)
    - **Enums**
