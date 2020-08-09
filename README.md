@@ -123,17 +123,14 @@ ultimate-js is my node work with Node.js
       - [class_types](./typescript/generics/class_types_in_generics.ts)
       - [generics_type_extends_types](./typescript/generics/generics_types_extends_types.ts)
    - **advanced types**
-      - d
+      - [type_guards](./typescript/advanced_types/type_guards.ts)
    - **utility types**
-      - d
+      - Partial<Type>
    - **decorators**
       - d
    - **modules**
-      - export
-      - import
-   - **namespaces**
-      - d
-      
+      - [export](./typescript/modules/export)
+      - [import](./typescript/modules/import) 
 - **Node.js**
    - [nvm](https://github.com/nvm-sh/nvm)
    - [npm](https://www.npmjs.com/)
