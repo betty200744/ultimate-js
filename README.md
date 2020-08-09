@@ -148,17 +148,14 @@ ultimate-js is my node work with Node.js
   
 - **awesome**
   - 8.10
-  - [reflect-metadata](https://github.com/rbuckton/reflect-metadata)
-  - [express]()
-  - [koa]()
+  - [express_ts](https://github.com/expressjs/express) | [code](awesome/express_ts/server.ts)
+  - [koa_ts](https://koajs.com/#introduction) | [code](awesome/koa_ts/server.ts)
+  - [koa](https://koajs.com/#introduction) | [code](awesome/koa/koa_server.js)
   - [egg]()
-  - [nginx](./docs/nginx.md)
-  - [mongodb_arbiter](./docs/mongodb_arbiter.md)
   - [mongodb](./docs/mongodb.md) 
   - [mysql](./docs/mysql.md)
   - [redis](./docs/redis.md)
   - [queue]() 
-  - [kue]() 
   - [rabitmq]() 
   - [nsq](./docs/queue.md)
   - [external services](./docs/external_services.md)
@@ -176,4 +173,5 @@ ultimate-js is my node work with Node.js
   - [deno]()
   - [inversity](https://github.com/inversify/InversifyJS)
   - [passport](https://github.com/jaredhanson/passport)
+- [nginx](./docs/nginx.md)
   
