@@ -127,7 +127,13 @@ ultimate-js is my node work with Node.js
    - **utility types**
       - Partial<Type>
    - **decorators**
-      - d
+      - [decorator function](./typescript/decorators/decorator_function.ts)
+      - [decorator factory](./typescript/decorators/decorator_function.ts)
+      - [class decorators | observe | modify | replace class definition](./typescript/decorators/class_decorators.ts)
+      - [method decorators | observe | modify |  replace method definition](./typescript/decorators/method_decorators.ts)
+      - [property decorators](./typescript/decorators/property_decorators.ts)
+      - [parameter decorators](./typescript/decorators/parameter_decorators.ts)
+      - [accessor decorators](./typescript/decorators/accessor_decorators.ts)
    - **modules**
       - [export](./typescript/modules/export)
       - [import](./typescript/modules/import) 
@@ -140,9 +146,9 @@ ultimate-js is my node work with Node.js
 - **algorithm**  
    - 8.9
   
-
 - **awesome**
   - 8.10
+  - [reflect-metadata](https://github.com/rbuckton/reflect-metadata)
   - [express]()
   - [koa]()
   - [egg]()
