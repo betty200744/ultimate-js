@@ -1,3 +1,5 @@
+
+// intersection , 并集
 interface ErrorHandling {
     error?: { message: string }
 }
