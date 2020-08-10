@@ -151,7 +151,7 @@ ultimate-js is my node work with Node.js
      - [Doubly linked list](./algorithm/data-structures/double-linked-list/doubleLinkedList.ts)  |  [(wiki)](https://en.wikipedia.org/wiki/Doubly_linked_list)
      - [Queue](./algorithm/data-structures/queue/queue.test.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Queue_%28abstract_data_type%29)
      - [Stack](./algorithm/data-structures/stack/stack.test.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29)
-     - [Hash Tables]()  | [(wiki)](http://en.wikipedia.org/wiki/Hash_table)      
+     - [Hash Tables](./algorithm/data-structures/hash-table/hashTable.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Hash_table)      
      - [Max Heap]()  | [(wiki)](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
      - [Min Heap]()  | [(wiki)](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
      - [Binary Tree]() |  [(wiki)](http://en.wikipedia.org/wiki/Binary_tree)
