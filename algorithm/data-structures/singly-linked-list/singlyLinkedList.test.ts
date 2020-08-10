@@ -1,7 +1,8 @@
-import SinglyLinkedList from "./singlyLinkedList";
+import {SinglyLinkedList, SinglyLinkedListForHash} from "./singlyLinkedList";
+
 
 describe('SinglyLinkedList', async () => {
-    it('append', async () => {
+    it('append ', async () => {
         let singlyLinkedList = new SinglyLinkedList()
         singlyLinkedList.append(1)
         singlyLinkedList.append(2)
@@ -60,9 +61,35 @@ describe('SinglyLinkedList', async () => {
         singlyLinkedList.append(1)
         singlyLinkedList.append(2)
         singlyLinkedList.append(3)
-        expect(singlyLinkedList.find(1)).toBeTruthy()
-        expect(singlyLinkedList.find(5)).toBeFalsy()
+        let res = singlyLinkedList.find(1)
+        expect(res.value).toEqual(1)
+        res = singlyLinkedList.find(5)
+        expect(res).toEqual(null)
     });
-
+})
+describe('SinglyLinkedListForHash', async () => {
+    it('append object', async () => {
+        let singlyLinkedList = new SinglyLinkedListForHash<{ key: string, value: string }>()
+        singlyLinkedList.append({key: "a", value: "a"})
+        singlyLinkedList.append({key: "b", value: "b"})
+        expect(singlyLinkedList.head.value.key).toEqual("a")
+        expect(singlyLinkedList.head.value.value).toEqual("a")
+        expect(singlyLinkedList.head.next.value.key).toEqual("b")
+    });
+    it('find object', async () => {
+        let singlyLinkedListForHash = new SinglyLinkedListForHash<{ key: string, value: string }>()
+        singlyLinkedListForHash.append({key: "a", value: "a"})
+        singlyLinkedListForHash.append({key: "b", value: "b"})
+        let a = singlyLinkedListForHash.find({key: "a"})
+        expect(a.value.key).toEqual("a")
+        a = singlyLinkedListForHash.find({key: "c"})
+        expect(a).toEqual(null)
+    });
+    it('delete', async () => {
+        let singlyLinkedListForHash = new SinglyLinkedListForHash<{ key: string, value: string }>()
+        singlyLinkedListForHash.append({key: "a", value: "a"})
+        singlyLinkedListForHash.delete("a")
+        console.log(singlyLinkedListForHash)
+    });
 
 })

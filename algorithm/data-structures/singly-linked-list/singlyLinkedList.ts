@@ -1,8 +1,8 @@
-class LinkedNode {
-    value: number
-    next: LinkedNode
+class LinkedNode<T> {
+    value: T
+    next: LinkedNode<T>
 
-    constructor(value: number, next: LinkedNode) {
+    constructor(value: T, next: LinkedNode<T>) {
         this.value = value
         this.next = next
     }
@@ -20,42 +20,46 @@ class LinkedNode {
  * display
  * reverse
  **/
-export default class SinglyLinkedList {
-    head: LinkedNode | null
-    tail: LinkedNode | null
+export class SinglyLinkedList<T> {
+    head: LinkedNode<T> | null
+    tail: LinkedNode<T> | null
 
     constructor() {
         this.head = null
         this.tail = null
     }
 
-    append(value: number) {
+    append(value: T) {
         let newNode = new LinkedNode(value, null)
         if (!this.head) {
             this.head = newNode
             this.tail = newNode
+            return
         }
         this.tail.next = newNode
         this.tail = newNode
-        return this
+        return
     }
 
-    prepend(value: number) {
+    prepend(value: T) {
         this.head = new LinkedNode(value, this.head)
     }
 
-    deleteFirst(): number {
+    deleteFirst(): T {
         // no node
         if (!this.head) {
             return
         }
         // has node
-        let tmp: number = this.head.value
+        let tmp: T = this.head.value
         this.head = this.head.next
+        if (this.head == null) {
+            this.tail = null
+        }
         return tmp
     }
 
-    deleteLast(): number {
+    deleteLast(): T {
         // no node
         if (!this.head) {
             return
@@ -70,26 +74,27 @@ export default class SinglyLinkedList {
         while (current.next.next) {
             current = current.next
         }
-        let tmp: number = current.next.value
+        let tmp: T = current.next.value
         current.next = null
         this.tail = current
         return tmp
     }
 
-    find(value: number): boolean {
+    find(value: T) {
         let curr = this.head
         while (curr) {
-            if (curr.value === value) {
-                return true
+            if (curr.value == value) {
+                return curr
             }
             curr = curr.next
         }
+        return null
     }
 
     reverse() {
-        let prev: LinkedNode;
-        let next: LinkedNode;
-        let curr: LinkedNode = this.head
+        let prev: LinkedNode<T>;
+        let next: LinkedNode<T>;
+        let curr: LinkedNode<T> = this.head
         while (curr) {
             next = curr.next
             curr.next = prev
@@ -101,12 +106,49 @@ export default class SinglyLinkedList {
     }
 
     display() {
-        let nodes: number[] = []
+        let nodes: T[] = []
         let curr = this.head
         while (curr) {
             nodes.push(curr.value)
             curr = curr.next
         }
         console.log(nodes)
+    }
+}
+
+export class SinglyLinkedListForHash<T extends { key: string, value: string }> extends SinglyLinkedList<T> {
+    constructor() {
+        super();
+    }
+
+    find(value: { key: string }) {
+        let curr = this.head
+        while (curr) {
+            if (curr.value.key == value.key) {
+                return curr
+            }
+            curr = curr.next
+        }
+        return null
+    }
+    delete(value: string) {
+        if (!this.head) {
+            return
+        }
+        if (this.head.value.value === value) {
+            this.deleteFirst()
+            return
+        }
+        let deleteNode = null
+        let currentNode = this.head
+        while (currentNode.next) {
+            if (currentNode.next.value.value === value) {
+                deleteNode = currentNode.next
+                currentNode.next = currentNode.next.next
+            } else {
+                currentNode = currentNode.next
+            }
+        }
+        console.log(this)
     }
 }
