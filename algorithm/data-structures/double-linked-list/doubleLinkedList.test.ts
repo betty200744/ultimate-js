@@ -1,4 +1,4 @@
-import DoubleLinkedList from "./DoubleLinkedList";
+import DoubleLinkedList from "./doubleLinkedList";
 
 describe('DoubleLinkedList', async () => {
     it('append', async () => {

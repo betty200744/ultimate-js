@@ -147,7 +147,7 @@ ultimate-js is my node work with Node.js
    - 8.2 
    - Data Structures
      - [Linked List](http://en.wikipedia.org/wiki/Linked_list)
-     - [Singly Linked List](./algorithm/data-structures/singly-linked-list/SinglyLinkedList.ts)  |  [(wiki)](https://en.wikipedia.org/wiki/Linked_list#Singly_linked_list)
+     - [Singly Linked List](algorithm/data-structures/singly-linked-list/singlyLinkedList.ts)  |  [(wiki)](https://en.wikipedia.org/wiki/Linked_list#Singly_linked_list)
      - [Doubly linked list]()  |  [(wiki)](https://en.wikipedia.org/wiki/Doubly_linked_list)
      - [Matrix]()  | [(wiki)](http://en.wikipedia.org/wiki/Matrix_(mathematics))
      - [Max Heap]()  | [(wiki)](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)

@@ -1,4 +1,4 @@
-import SinglyLinkedList from "./SinglyLinkedList";
+import SinglyLinkedList from "./singlyLinkedList";
 
 describe('SinglyLinkedList', async () => {
     it('append', async () => {
