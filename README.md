@@ -152,12 +152,21 @@ ultimate-js is my node work with Node.js
      - [Queue](./algorithm/data-structures/queue/queue.test.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Queue_%28abstract_data_type%29)
      - [Stack](./algorithm/data-structures/stack/stack.test.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29)
      - [Hash Tables](./algorithm/data-structures/hash-table/hashTable.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Hash_table)      
-     - [Max Heap]()  | [(wiki)](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
-     - [Min Heap]()  | [(wiki)](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
+     - [Heap](./algorithm/data-structures/heap/heap.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
+     - [Max Heap](./algorithm/data-structures/heap/maxHeap.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
+     - [Min Heap](./algorithm/data-structures/heap/minHeap.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
      - [Binary Tree]() |  [(wiki)](http://en.wikipedia.org/wiki/Binary_tree)
      - [Binary Search Tree]() |  [(wiki)](https://en.wikipedia.org/wiki/Binary_search_tree) | [(mit)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec05.pdf)
      - [Graph]()[(wiki)](http://en.wikipedia.org/wiki/Graph_%28abstract_data_type)
      - [Matrix]()  | [(wiki)](http://en.wikipedia.org/wiki/Matrix_(mathematics))
+   - Sorting algorithms
+     - [Bubble Sort]() | [(wiki)](http://en.wikipedia.org/wiki/Bubble_sort)
+     - [Heap Sort]() [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Heapsort)
+     - [Quick Sort]()[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Quicksort)
+     - [Merge Sort]() [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Merge_sort)
+     - [Insertion Sort]()[(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Insertion_sort)
+     - [Shell Sort]()[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Shellsort)
+     - [Selection Sort]() [(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Selection_sort)
    - Graph algorithms
      - Searching:
        - [Depth First Search]()  |  [(wiki)](http://en.wikipedia.org/wiki/Depth-first_search)
@@ -178,14 +187,6 @@ ultimate-js is my node work with Node.js
      - [Newton's Squarenewton-sqrt]()  |  [(wiki)](http://en.wikipedia.org/wiki/Newton%27s_method)
      - [Permutations Count]()
      - [Strassen's matrixstrassen]() |  [(wiki)](http://en.wikipedia.org/wiki/Strassen_algorithm)
-   - Sorting algorithms
-     - [Bubble Sort]() | [(wiki)](http://en.wikipedia.org/wiki/Bubble_sort)
-     - [Heap Sort]() [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Heapsort)
-     - [Quick Sort]()[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Quicksort)
-     - [Merge Sort]() [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Merge_sort)
-     - [Insertion Sort]()[(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Insertion_sort)
-     - [Shell Sort]()[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Shellsort)
-     - [Selection Sort]() [(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Selection_sort)
    - Searching algorithms
      - [Binary Search]() | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
 - **awesome**
