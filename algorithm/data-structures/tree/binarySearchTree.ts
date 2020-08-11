@@ -65,30 +65,6 @@ export class BinarySearchTree {
     }
 
     private removeNode(data, node: BinarySearchTreeNode) {
-        if (node == null) {
-            return
-        }
-        if (data > node.data) {
-            return this.removeNode(data, node.right)
-        }
-        if (data < node.data) {
-            return this.removeNode(data, data.left)
-        }
-        // remove leaf , set parent pointer to null
-        if (node.left === null && node.right == null){
-            node = null
-            return
-        }
-        // remove node with one child, set parent pointer to the child
-        if (node.left === null) {
-            node = node.right
-            return node
-        }
-        if (node.right === null) {
-            node = node.left
-            return node
-        }
-        // remove node with two child, swap with inorderSuccessor, then delete
 
     }
 
@@ -97,15 +73,19 @@ export class BinarySearchTree {
     getRootNode() {
         return this.root
     }
-    swap(){
+
+    swap() {
 
     }
-    inOrderSuccessor(){
-        let cur = this.root
-    }
-    inOrderPredessor(){
 
+    inOrderSuccessor(node) {
+        if (node.left === null) {
+            return node
+        } else {
+            return this.inOrderSuccessor(node.left)
+        }
     }
+
     findMin() {
 
     }
