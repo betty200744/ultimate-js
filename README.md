@@ -163,7 +163,7 @@ ultimate-js is my node work with Node.js
      - [Graph]()[(wiki)](http://en.wikipedia.org/wiki/Graph_%28abstract_data_type)
      - [Matrix]()  | [(wiki)](http://en.wikipedia.org/wiki/Matrix_(mathematics))
    - Sorting algorithms
-     - [Bubble Sort]() | [(wiki)](http://en.wikipedia.org/wiki/Bubble_sort)
+     - [Bubble Sort](./algorithm/sorting-algorithms/bubbleSort.ts) | [(wiki)](http://en.wikipedia.org/wiki/Bubble_sort)
      - [Heap Sort]() [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Heapsort)
      - [Quick Sort]()[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Quicksort)
      - [Merge Sort]() [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Merge_sort)
