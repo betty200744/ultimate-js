@@ -164,12 +164,13 @@ ultimate-js is my node work with Node.js
      - [Matrix]()  | [(wiki)](http://en.wikipedia.org/wiki/Matrix_(mathematics))
    - Sorting algorithms
      - [Bubble Sort](./algorithm/sorting-algorithms/bubbleSort.ts) | [(wiki)](http://en.wikipedia.org/wiki/Bubble_sort)
-     - [Heap Sort]() [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Heapsort)
-     - [Quick Sort]()[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Quicksort)
+     - [Selection Sort](./algorithm/sorting-algorithms/selectionSort.ts) [(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Selection_sort)
+     - [Insertion Sort](./algorithm/sorting-algorithms/insertionSort.ts)[(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Insertion_sort)
+     - [Heap Sort](./algorithm/sorting-algorithms/heapSort.ts) [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Heapsort)
      - [Merge Sort]() [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Merge_sort)
-     - [Insertion Sort]()[(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Insertion_sort)
+     - [Quick Sort]()[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Quicksort)     
      - [Shell Sort]()[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Shellsort)
-     - [Selection Sort]() [(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Selection_sort)
+     - [Radix Sort]()[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Shellsort)
    - Graph algorithms
      - Searching:
        - [Depth First Search]()  |  [(wiki)](http://en.wikipedia.org/wiki/Depth-first_search)
