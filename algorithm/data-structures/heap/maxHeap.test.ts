@@ -30,6 +30,15 @@ describe('MaxHeap', async () => {
         maxHeap.remove()
         console.log(maxHeap.items)
     });
+    it('extract', async () => {
+        let arr = [7, 2, 6, 9, 3, 5, 1, 8]
+        let maxHeap = new MaxHeap(arr)
+        maxHeap.build()
+        let max = maxHeap.extract()
+        expect(max).toEqual(9)
+        max = maxHeap.extract()
+        expect(max).toEqual(8)
+    });
     it('find', async () => {
         let arr = [7, 2, 6, 9, 3, 5, 1, 8]
         let maxHeap = new MaxHeap(arr)
