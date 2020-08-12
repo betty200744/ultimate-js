@@ -157,6 +157,7 @@ ultimate-js is my node work with Node.js
      - [Min Heap](./algorithm/data-structures/heap/minHeap.ts)  | [(wiki)](http://en.wikipedia.org/wiki/Heap_%28data_structure%29)
      - [Binary Tree]() |  [(wiki)](http://en.wikipedia.org/wiki/Binary_tree)
      - [Binary Search Tree]() |  [(wiki)](https://en.wikipedia.org/wiki/Binary_search_tree) | [(mit)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec05.pdf)
+     - [AVL Tree | height balanced binary search tree ]() |  [(wiki)]() | [(mit)]()
      - [Graph]()[(wiki)](http://en.wikipedia.org/wiki/Graph_%28abstract_data_type)
      - [Matrix]()  | [(wiki)](http://en.wikipedia.org/wiki/Matrix_(mathematics))
    - Sorting algorithms
