@@ -162,7 +162,7 @@ ultimate-js is my node work with Node.js
      - [Red-Black Tree ]() |  [(wiki)]() | [(mit)]()
      - [Graph]()[(wiki)](http://en.wikipedia.org/wiki/Graph_%28abstract_data_type)
      - [Matrix]()  | [(wiki)](http://en.wikipedia.org/wiki/Matrix_(mathematics))
-   - Sorting algorithms
+   - [Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm)
      - [Bubble Sort](./algorithm/sorting-algorithms/bubbleSort.ts) | [(wiki)](http://en.wikipedia.org/wiki/Bubble_sort)
      - [Selection Sort](./algorithm/sorting-algorithms/selectionSort.ts) [(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Selection_sort)
      - [Insertion Sort](./algorithm/sorting-algorithms/insertionSort.ts)[(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Insertion_sort)
@@ -170,7 +170,6 @@ ultimate-js is my node work with Node.js
      - [Merge Sort](./algorithm/sorting-algorithms/mergeSort.ts) [(mit notes)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec03.pdf) | [(wiki)](http://en.wikipedia.org/wiki/Merge_sort)
      - [Quick Sort](./algorithm/sorting-algorithms/quickSort.ts)[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Quicksort)     
      - [Shell Sort](./algorithm/sorting-algorithms/shellSort.ts)[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Shellsort)
-     - [Radix Sort](./algorithm/sorting-algorithms/radixSort.ts)[(mit notes)]() | [(wiki)](http://en.wikipedia.org/wiki/Shellsort)
    - Graph algorithms
      - Searching:
        - [Depth First Search]()  |  [(wiki)](http://en.wikipedia.org/wiki/Depth-first_search)

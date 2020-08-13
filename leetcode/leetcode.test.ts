@@ -2,6 +2,7 @@ import {twoSum, twoSum1} from "./1_twoSum";
 import {lengthOfLongestSubstring} from "./3_lengthOfLongestSubstring";
 import {findMedianSortedArrays} from "./4_findMedianSortedArrays";
 import {reverse} from "./7_reverse";
+import {isPalindrome} from "./9_Palindrome_Number";
 
 describe('1', async () => {
     it('twoSum', async () => {
@@ -29,9 +30,12 @@ describe('4', async () => {
         expect(res).toEqual(2.5)
     });
 })
-describe('7', async () => {
-    it('reverse', async () => {
-        let res = reverse(123)
-        expect(res).toEqual(321)
-    });
+it('7 reverse', async () => {
+    let res = reverse(123)
+    expect(res).toEqual(321)
 });
+it('9. Palindrome Number', async () => {
+    let res = isPalindrome(121)
+    expect(res).toEqual(true)
+});
+
