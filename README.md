@@ -174,7 +174,9 @@ ultimate-js is my node work with Node.js
      - Searching:
        - [Depth First Search]()  |  [(wiki)](http://en.wikipedia.org/wiki/Depth-first_search)
        - [Breadth First Search]()  |  [(wiki)](http://en.wikipedia.org/wiki/Breadth-first_search)
-       - [Binary Search]() | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
+       - [Binary Search](./algorithm/search-algorithms/binarySearch.ts) | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
+       - [Linear Search](./algorithm/search-algorithms/linearSearch.ts) | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
+       - [Binary Search Recursive](./algorithm/search-algorithms/binarySearchRecursive.ts) | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
 
    - hortest path:
      - [Dijkstra]()  | [(wiki)](http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
