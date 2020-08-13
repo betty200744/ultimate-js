@@ -174,6 +174,8 @@ ultimate-js is my node work with Node.js
      - Searching:
        - [Depth First Search]()  |  [(wiki)](http://en.wikipedia.org/wiki/Depth-first_search)
        - [Breadth First Search]()  |  [(wiki)](http://en.wikipedia.org/wiki/Breadth-first_search)
+       - [Binary Search]() | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
+
    - hortest path:
      - [Dijkstra]()  | [(wiki)](http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
    - Sorting:
@@ -190,8 +192,6 @@ ultimate-js is my node work with Node.js
      - [Newton's Squarenewton-sqrt]()  |  [(wiki)](http://en.wikipedia.org/wiki/Newton%27s_method)
      - [Permutations Count]()
      - [Strassen's matrixstrassen]() |  [(wiki)](http://en.wikipedia.org/wiki/Strassen_algorithm)
-   - Searching algorithms
-     - [Binary Search]() | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
 - **awesome**
   - 8.10
   - [express_ts](https://github.com/expressjs/express) | [code](awesome/express_ts/server.ts)
