@@ -1,6 +1,7 @@
 import {twoSum, twoSum1} from "./1_twoSum";
 import {lengthOfLongestSubstring} from "./3_lengthOfLongestSubstring";
 import {findMedianSortedArrays} from "./4_findMedianSortedArrays";
+import {reverse} from "./7_reverse";
 
 describe('1', async () => {
     it('twoSum', async () => {
@@ -23,9 +24,14 @@ describe('3', async () => {
     });
 })
 describe('4', async () => {
-    it('', async () => {
+    it('findMedianSortedArrays', async () => {
         let res = findMedianSortedArrays([1, 2], [3, 4])
         expect(res).toEqual(2.5)
     });
-
 })
+describe('7', async () => {
+    it('reverse', async () => {
+        let res = reverse(123)
+        expect(res).toEqual(321)
+    });
+});
