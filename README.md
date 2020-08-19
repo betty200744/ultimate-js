@@ -12,14 +12,28 @@ ultimate-js is my node work with Node.js
 - **docker**
   - []()
 - **databases**
-  - [PostgreSQL]()
-  - [MongoDB]()
-  - [MySQL]()
+  - [PostgreSQL](https://github.com/betty200744/ultimate-postgresql-mysql)
+  - [MongoDB](https://github.com/betty200744/ultimate-postgresql-mysql)
+  - [MySQL](https://github.com/betty200744/ultimate-postgresql-mysql)
+  - [redis](https://github.com/betty200744/ultimate-postgresql-mysql)
 - **APIs**
   - [rest]()  
   - [graphql]()  
   - [grpc]()  
   - [Authentication]()  
+  - [express_ts](https://github.com/expressjs/express) | [code](awesome/express_ts/server.ts)
+  - [koa_ts](https://koajs.com/#introduction) | [code](awesome/koa_ts/server.ts)
+  - [koa](https://koajs.com/#introduction) | [code](awesome/koa/koa_server.js)
+  - [egg]()
+  
+- **Docs**  
+  - [kafka](./docs/kafka.md) 
+  - [rabbitmq](./docs/rabbitmq.md) 
+  - [nsq](./docs/queue.md)
+  - [cloud](./docs/cloud.md)
+  - [docker](./docs/docker.md)
+  - [mocha](./docs/mocha.md)  
+  
 - **Crypto** 
   - [Crypto]()  
 - **javascript**
@@ -212,27 +226,12 @@ ultimate-js is my node work with Node.js
      - [Permutations Count]()
      - [Strassen's matrixstrassen]() |  [(wiki)](http://en.wikipedia.org/wiki/Strassen_algorithm)
 - **awesome**
-  - 8.10
-  - [express_ts](https://github.com/expressjs/express) | [code](awesome/express_ts/server.ts)
-  - [koa_ts](https://koajs.com/#introduction) | [code](awesome/koa_ts/server.ts)
-  - [koa](https://koajs.com/#introduction) | [code](awesome/koa/koa_server.js)
-  - [egg]()
-  - [mongodb](./docs/mongodb.md) 
-  - [mysql](./docs/mysql.md)
-  - [redis](./docs/redis.md)
-  - [queue]() 
-  - [rabitmq]() 
-  - [nsq](./docs/queue.md)
   - [external services](./docs/external_services.md)
-  - [cloud](./docs/cloud.md)
-  - [docker](./docs/docker.md)
-  - [mocha](./docs/mocha.md)
   - [async-file]()
   - [typeorm]()
   - [ramda]()
   - [amqplib]()
   - [bcryptjs]()
-  - [grpc]()
   - [jsonwebtoken]()
   - [protobufjs]()
   - [deno]()
