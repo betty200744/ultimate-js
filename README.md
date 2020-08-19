@@ -27,6 +27,7 @@ ultimate-js is my node work with Node.js
   - [egg]()
   
 - **Docs**  
+  - [elasticsearch](./docs/elasticsearch.md) 
   - [kafka](./docs/kafka.md) 
   - [rabbitmq](./docs/rabbitmq.md) 
   - [nsq](./docs/queue.md)
