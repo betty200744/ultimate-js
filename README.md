@@ -3,6 +3,25 @@ ultimate-js is my node work with Node.js
 
 ![Alt text](./system.png)
 
+- **network** 
+![](./img/network_osi_model_protocols.png)
+- **os linux**
+![]()
+   - [ipc | InterProcess Communication | shared mem| signal | pipe | message queue | sockets]()
+   
+- **docker**
+  - []()
+- **databases**
+  - [PostgreSQL]()
+  - [MongoDB]()
+  - [MySQL]()
+- **APIs**
+  - [rest]()  
+  - [graphql]()  
+  - [grpc]()  
+  - [Authentication]()  
+- **Crypto** 
+  - [Crypto]()  
 - **javascript**
   - [declarations](./javascript/declarations/declarations.js) | [variables hoisting](./javascript/declarations/variable_hoisting.js) | block-scope  
   - [function declaration | function express | function hoisting](javascript/function/function_declarate.js)
@@ -144,7 +163,6 @@ ultimate-js is my node work with Node.js
    - [n](https://github.com/tj/n)
   
 - **Algorithms** [Algorithms]()
-   - 8.2 
    - Data Structures
      - [Linked List](http://en.wikipedia.org/wiki/Linked_list)
      - [Singly Linked List](algorithm/data-structures/singly-linked-list/singlyLinkedList.ts)  |  [(wiki)](https://en.wikipedia.org/wiki/Linked_list#Singly_linked_list)
@@ -177,7 +195,6 @@ ultimate-js is my node work with Node.js
        - [Binary Search](./algorithm/search-algorithms/binarySearch.ts) | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
        - [Linear Search](./algorithm/search-algorithms/linearSearch.ts) | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
        - [Binary Search Recursive](./algorithm/search-algorithms/binarySearchRecursive.ts) | [(wiki)](http://en.wikipedia.org/wiki/Binary_search_algorithm)
-
    - hortest path:
      - [Dijkstra]()  | [(wiki)](http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
    - Sorting:
@@ -221,5 +238,5 @@ ultimate-js is my node work with Node.js
   - [deno]()
   - [inversity](https://github.com/inversify/InversifyJS)
   - [passport](https://github.com/jaredhanson/passport)
-- [nginx](./docs/nginx.md)
+
   

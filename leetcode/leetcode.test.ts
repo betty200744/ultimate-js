@@ -2,7 +2,8 @@ import {twoSum, twoSum1} from "./1_twoSum";
 import {lengthOfLongestSubstring} from "./3_lengthOfLongestSubstring";
 import {findMedianSortedArrays} from "./4_findMedianSortedArrays";
 import {reverse} from "./7_reverse";
-import {isPalindrome} from "./9_Palindrome_Number";
+import {isPalindrome} from "./9_palindromeNumber";
+import {removeDuplicates} from "./26_removeDuplicates";
 
 describe('1', async () => {
     it('twoSum', async () => {
@@ -38,4 +39,9 @@ it('9. Palindrome Number', async () => {
     let res = isPalindrome(121)
     expect(res).toEqual(true)
 });
+it('26. removeDuplicates', async () => {
+    let res = removeDuplicates([0,0,1,1,1,2,2,3,3,4])
+    expect(res).toEqual(5)
+});
+
 
