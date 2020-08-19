@@ -25,7 +25,7 @@
 
 * `https://www.elastic.co/guide/en/elasticsearch/reference/current/_mapping_concepts_across_sql_and_elasticsearch.html`
 
-![](img/elastic_vs_sql.png)
+![](../img/elastic_vs_sql.png)
 
 ### 遇到的问题
 
@@ -36,14 +36,14 @@
 * 查询问题， string对应的keyword类型, 不分词, 即完整匹配，用full text queries也没用，即用了keyword type就相当于放弃分词查询
 * 查询问题， 注意不要用term查询text字段， 如要查询name: 'betty zhao', 无法查到，实际查询时term完整匹配betty 或者完整匹配zhao, 不会完整匹配‘betty zhao’
 
-![](img/elastic_json_api.png)
+![](../img/elastic_json_api.png)
 
 
 ### what is Elastic Stack
 
 * https://www.elastic.co/guide/en/elastic-stack-get-started/7.2/get-started-elastic-stack.html
 
-![](img/elastic_stack.png)
+![](../img/elastic_stack.png)
 
 ### introduction
 
@@ -67,7 +67,7 @@
 * elasticsearch, 采集数据,Logstash and Beats, collecting, aggregating data and storing in elasticsearch
 * kibana，展示数据， 视图化展示
 
-![](img/elastic_json_api.png)
+![](../img/elastic_json_api.png)
 
 
 #### clusters, nodes, and shards and index
@@ -81,15 +81,15 @@
 * * *
 * Sharding of the document index and assignment to nodes: 5 shards ， 0 replicas
 
-![](img/elastic_shard_1.png)
+![](../img/elastic_shard_1.png)
 
 * * *
 *  Shards and replicas — 5 shards, 1 replica
-![](img/elastic_shard_replicas_2.png)
+![](../img/elastic_shard_replicas_2.png)
 
 * * *
 * Docs per node for different settings of # of shards and replicas
-![](img/elastic_shard_replicas_3.png)
+![](../img/elastic_shard_replicas_3.png)
 
 ### Getting started with Elasticsearch
 
@@ -117,7 +117,7 @@
 * list all nodes, `GET /_cat/nodes?v`
 * list all indices, `GET /_cat/indices?v`
 
-![](img/elastic_cat_apis.png)
+![](../img/elastic_cat_apis.png)
 
 #### manage index
 
@@ -177,8 +177,8 @@
 * id查， ids查询，exists查询，
 * offset, limit, select, order
 
-![](img/elastic_search_1.png)
-![](img/elastic_search_2.png)
+![](../img/elastic_search_1.png)
+![](../img/elastic_search_2.png)
 
 ### REST APIs (定义http request url)
 

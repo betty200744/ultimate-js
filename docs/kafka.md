@@ -6,7 +6,7 @@
 * ecosystem:  https://cwiki.apache.org/confluence/display/KAFKA/Ecosystem
 * tools:  https://github.com/Shopify/sarama/tree/master/tools , 压测
 
-![](img/kafka_1.png)
+![](../img/kafka_1.png)
 
 ### introduction
 * 整体基于tcp传输
@@ -127,7 +127,7 @@ whale-wq-worker
 - topic, 配置多个partitions用于并发，每个partition可有多个replication用于容灾
 - topic, zero, one, or many consumers
 
-![](img/kafka_topic.png)
+![](../img/kafka_topic.png)
 
 ### Distribution and Partition
 
@@ -137,13 +137,13 @@ whale-wq-worker
 - replication-factor, partitions的副本集节点，用于容灾, 每一个partition都有1个leader和0 or n个follers,  注意replication-factor不能大于broker数
 * Each partition has one server which acts as the "leader" and zero or more servers which act as "followers".
 
-![](img/kafka_partitions_replicas.png)
+![](../img/kafka_partitions_replicas.png)
 
 ### Producers
 - Producers, kafka client, 按照round-robin 或者其他策略发送到不同的partitions
 - Producers, kafka client, 消息发送者， 可向多个partitions发送消息
 
-![](img/kafka_producer.png)
+![](../img/kafka_producer.png)
 
 ### Consumers
 - If all the consumer instances have the same consumer group, then the records will effectively be load balanced over the consumer instances.
@@ -153,7 +153,7 @@ whale-wq-worker
 - ComsumerGroup, 组内Comsumer能消费0-n个partition, 
 - ComsumerGroup, 一个partition只能被comsumerGroup里面一个consumer读取
 
-![](img/kafka_consumer_groups.png)
+![](../img/kafka_consumer_groups.png)
 
 
 
