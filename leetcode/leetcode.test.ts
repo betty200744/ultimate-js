@@ -4,6 +4,7 @@ import {findMedianSortedArrays} from "./4_findMedianSortedArrays";
 import {reverse} from "./7_reverse";
 import {isPalindrome} from "./9_palindromeNumber";
 import {removeDuplicates} from "./26_removeDuplicates";
+import {LRUCache} from "./146. LRU_Cache";
 
 describe('1', async () => {
     it('twoSum', async () => {
@@ -40,8 +41,20 @@ it('9. Palindrome Number', async () => {
     expect(res).toEqual(true)
 });
 it('26. removeDuplicates', async () => {
-    let res = removeDuplicates([0,0,1,1,1,2,2,3,3,4])
+    let res = removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])
     expect(res).toEqual(5)
 });
 
+it('146. LRU Cache', async () => {
+    let cache = new LRUCache();
+    cache.put(1, 1);
+    cache.put(2, 2);
+    expect(cache.get(1)).toEqual(1);       // returns 1
+    cache.put(3, 3);    // evicts key 2
+    expect(cache.get(2)).toEqual(-1);       // returns -1 (not found)
+    cache.put(4, 4);    // evicts key 1
+    expect(cache.get(1)).toEqual(-1);       // returns -1 (not found)
+    expect(cache.get(3)).toEqual(3);       // returns 3
+    expect(cache.get(4)).toEqual(4);       // returns 4
+});
 

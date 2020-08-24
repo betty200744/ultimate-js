@@ -13,5 +13,14 @@ describe('Basic Types', async () => {
         let res = string_reverse("node")
         expect(res).toEqual("edon")
     });
-
+    it('map', async () => {
+        let g: Map<string, string> = new Map<string, string>()
+        g.set("a", "a")
+        g.set("b", "b")
+        g.set("c", "c")
+        g.set("d", "d")
+        expect(g.get('d')).toEqual("d")
+        console.log(g.keys().next())
+        console.log(g.keys().next())
+    });
 })

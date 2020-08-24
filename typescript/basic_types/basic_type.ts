@@ -11,6 +11,12 @@ let e: Array<string> = ["a", "b"]
 // Tuple
 let f = ["a", 1, true]
 
+// Map
+let g: Map<string, string> = new Map<string, string>()
+g.set("a", "a")
+g.set("b", "b")
+g.get("a")
+
 // Enum
 enum ActivityStatus {
     Red = 1,
