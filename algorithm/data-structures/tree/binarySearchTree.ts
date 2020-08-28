@@ -1,4 +1,4 @@
-import {biggerEquals, lesserEquals} from "../../util";
+import {biggerEquals, lesserEquals} from "../../../javascript/util";
 import {BinarySearchTreeNode} from "./binarySearchTreeNode";
 
 

@@ -129,4 +129,20 @@ export class BinarySearchTreeNode {
             console.log(node.data)
         }
     }
+
+    breadthFirst(root: BinarySearchTreeNode) {
+        let q: BinarySearchTreeNode[] = [] // queue
+        q.push(root)
+        while (q.length > 0) {
+            let n: BinarySearchTreeNode = q[0]  // temporary node
+            q = q.slice(1)
+            process.stdout.write(n.data.toString() + " ");
+            if (n.left != null) {
+                q.push(n.left)
+            }
+            if (n.right != null) {
+                q.push(n.right)
+            }
+        }
+    }
 }
