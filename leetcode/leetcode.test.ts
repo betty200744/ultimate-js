@@ -1,5 +1,5 @@
-import {twoSum, twoSum1} from "./1_twoSum";
-import {lengthOfLongestSubstring} from "./3_lengthOfLongestSubstring";
+import {twoSum, twoSum1} from "./array/1_twoSum";
+import {lengthOfLongestSubstring} from "./string/3_lengthOfLongestSubstring";
 import {findMedianSortedArrays} from "./4_findMedianSortedArrays";
 import {reverse} from "./7_reverse";
 import {isPalindrome} from "./9_palindromeNumber";
