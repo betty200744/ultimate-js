@@ -5,7 +5,7 @@
     "bluebird": "^3.7.2",
     "chai": "^4.2.0",
     "elastic-apm-node": "^2.0.6",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
     "node-fetch": "^2.6.0",
     "retry": "^0.12.0",
